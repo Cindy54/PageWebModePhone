@@ -1,0 +1,131 @@
+*{
+    font-family: 'Prompt', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    color: #454343;
+    word-spacing: -2px;
+}
+html { /*Animation de scroll automatique*/
+    scroll-behavior: smooth;
+}
+.logo{
+    width: 40px;
+}
+.facebook, .gmail, .instragram, .linkedin{
+    width: 20px;
+}
+.header{
+display: flex;
+justify-content: space-between;
+margin: 5px;
+}
+.lienmodèle 
+{ 
+ text-decoration:none;
+ 
+}
+.lienmodèle:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.presentation{
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    margin: 20px;
+    text-align: center;
+    font-size: small;
+}
+.envies{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #eeeeee;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    font-size: small;
+}
+.summary:hover{
+    color: #797777;
+}
+/*.last{
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+}*/
+
+.enfants, .accessoires, .woman{
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    margin: 20px;
+    text-align: center;
+    font-size: small;
+}
+
+/*image*/
+.tissusfoulard, .foulardfini, .short, .vêtement1, .vêtement2 {
+    width: 100px;
+    height: 133px;
+    border-radius: 20px;
+}
+.accessoiresenfants{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    padding: 10px;  
+}
+.creavetement{
+    text-decoration: none;
+    color: black;
+}
+.creavetement:hover{
+    color: #797777;
+}
+.liengenially{
+    text-decoration:none;
+    color: black;  
+}
+.liengenially:hover{
+    text-decoration: none;
+    color: #797777;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 5px;
+    text-align: center;
+    font-size: 10px; 
+}
+#logop{
+    display: flex;
+    justify-content: center;   
+}
+/*@media screen and (min-width: 600px){
+    .presentation{
+        display: flex;
+        align-items: center;
+        flex-direction: row; 
+        margin: 20px;
+        text-align: center;
+        font-size: small;
+
+    }
+    .envies{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        background-color: #eeeeee;
+        border-radius: 30px;
+        padding: 10px;
+        margin: 20px;
+        text-align: center;
+        font-size: small;
+    }/*
+
+}
